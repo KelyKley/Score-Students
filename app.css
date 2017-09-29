@@ -125,6 +125,7 @@ body {
 
 .counter-action {
   border: none;
+  border-radius: 7%;
   font-weight: bold;
   color: #FAFAFA;
   display: block;
@@ -153,7 +154,15 @@ body {
   background: #c44442;
   cursor: pointer;
 }
-
+.counter-player{
+  background-color: #222;  
+  flex-grow: 1;
+  color: #FAFAFA;
+  text-align: center;
+  font-family: monospace;
+  padding: 10px;
+  font-size: 1.8em;
+}
 .counter-score {
   flex-grow: 1;
   background: #2b2b2b;
